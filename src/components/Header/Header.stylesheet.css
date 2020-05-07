@@ -1,0 +1,13 @@
+.Container{
+    background-color: blue;
+}
+.navContainer{
+    align-items: center;
+}
+h1{
+    color: white;
+}
+h2{
+    color: #ddd;
+    font-size: medium;
+}
