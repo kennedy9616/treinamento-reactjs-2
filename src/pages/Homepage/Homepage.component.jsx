@@ -62,7 +62,7 @@ export default function Homepage(){
                     </ButtonGroup>
                 </Container>
                 <Container className= "filterContainer">
-                    Filtrar por Pais:
+                    Filtrar por País:
                     <ButtonGroup>
                         <Button onClick ={()=> {filterPais('brazilian')}}>Brasil</Button>
                         <Button onClick = {() => {filterPais('japanese')}}>Japão</Button>

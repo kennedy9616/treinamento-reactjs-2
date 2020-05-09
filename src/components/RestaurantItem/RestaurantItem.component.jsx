@@ -1,6 +1,7 @@
 import * as React from 'react';
 import {Card} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
+import './RestaurantItem.stylesheet.css'
 
 export default function RestaurantItem({restaurant}){
 
@@ -16,7 +17,7 @@ export default function RestaurantItem({restaurant}){
                 <Card.Subtitle className="text-left">{restaurant.display_phone}</Card.Subtitle>
             </Card.Body>
             <Card.Footer>
-                <h3>{restaurant.rating} Estrelas</h3>
+                <h3 className="estrela">{restaurant.rating} Estrela</h3>
             </Card.Footer>
             </Card>
         </Link>

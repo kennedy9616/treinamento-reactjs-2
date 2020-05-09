@@ -4,10 +4,6 @@
 .navContainer{
     align-items: center;
 }
-h1{
+.headerText{
     color: white;
-}
-h2{
-    color: #ddd;
-    font-size: medium;
 }
